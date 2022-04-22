@@ -7,7 +7,7 @@ import 'element-plus/dist/index.css'
 import axios from './utils/http'
 
 const app=createApp(App)
-// 全局挂载axios
+// 全局挂载axios 123
 app.config.globalProperties.$axios=axios;
 
 app.use(ElementPlus)
